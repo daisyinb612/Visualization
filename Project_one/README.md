@@ -1,6 +1,3 @@
-# Visualization
-For Data Visualization Technique Class in 2024
-
 # How to Start
 create new conda environment
 ```

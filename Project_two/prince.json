@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {"id": "小王子", "group": 1, "image": "https://raw.githubusercontent.com/daisyinb612/Visualization/main/Project_two/picture/prince.jpg"},
+    {"id": "玫瑰", "group": 1, "image": "https://raw.githubusercontent.com/daisyinb612/Visualization/main/Project_two/picture/rose.jpg"},
+    {"id": "狐狸", "group": 2, "image": "https://raw.githubusercontent.com/daisyinb612/Visualization/main/Project_two/picture/fox.jpg"},
+    {"id": "蛇", "group": 3, "image": "https://raw.githubusercontent.com/daisyinb612/Visualization/main/Project_two/picture/snake.jpg"},
+    {"id": "国王", "group": 4, "image": "https://raw.githubusercontent.com/daisyinb612/Visualization/main/Project_two/picture/king.jpg"},
+    {"id": "自负的人", "group": 4, "image": "https://raw.githubusercontent.com/daisyinb612/Visualization/main/Project_two/picture/proud.jpg"},
+    {"id": "商人", "group": 4, "image": "https://raw.githubusercontent.com/daisyinb612/Visualization/main/Project_two/picture/merchant.jpg"},
+    {"id": "点灯人", "group": 4, "image": "https://raw.githubusercontent.com/daisyinb612/Visualization/main/Project_two/picture/lighter .jpg"},
+    {"id": "飞行员", "group": 5, "image": "https://raw.githubusercontent.com/daisyinb612/Visualization/main/Project_two/picture/pilot.jpg"},
+    {"id": "扳道工", "group": 5, "image": "https://raw.githubusercontent.com/daisyinb612/Visualization/main/Project_two/picture/switchman.jpg"},
+    {"id": "商贩", "group": 5, "image": "https://raw.githubusercontent.com/daisyinb612/Visualization/main/Project_two/picture/vendor.jpg"},
+    {"id": "路灯", "group": 5, "image": "https://raw.githubusercontent.com/daisyinb612/Visualization/main/Project_two/picture/streetlamp.jpg"},
+    {"id": "三瓣花", "group": 1, "image": "https://raw.githubusercontent.com/daisyinb612/Visualization/main/Project_two/picture/flower.jpg"},
+    {"id": "火山", "group": 1, "image": "https://raw.githubusercontent.com/daisyinb612/Visualization/main/Project_two/picture/volcano.jpg"},
+    {"id": "玫瑰园", "group": 1, "image": "https://raw.githubusercontent.com/daisyinb612/Visualization/main/Project_two/picture/garden.jpg"},
+    {"id": "小女孩", "group": 6, "image": "https://raw.githubusercontent.com/daisyinb612/Visualization/main/Project_two/picture/girl.jpg"},
+    {"id": "妈妈", "group": 6, "image": "https://raw.githubusercontent.com/daisyinb612/Visualization/main/Project_two/picture/mother.jpg"}
+  ],
+  "links": [
+    {"source": "小王子", "target": "玫瑰", "value": 8},
+    {"source": "小王子", "target": "狐狸", "value": 7},
+    {"source": "小王子", "target": "蛇", "value": 5},
+    {"source": "小王子", "target": "国王", "value": 3},
+    {"source": "小王子", "target": "自负的人", "value": 3},
+    {"source": "小王子", "target": "商人", "value": 3},
+    {"source": "小王子", "target": "点灯人", "value": 3},
+    {"source": "小王子", "target": "飞行员", "value": 6},
+    {"source": "小王子", "target": "扳道工", "value": 2},
+    {"source": "小王子", "target": "商贩", "value": 2},
+    {"source": "小王子", "target": "路灯", "value": 2},
+    {"source": "小王子", "target": "三瓣花", "value": 2},
+    {"source": "小王子", "target": "火山", "value": 2},
+    {"source": "小王子", "target": "玫瑰园", "value": 4},
+    {"source": "玫瑰", "target": "狐狸", "value": 2},
+    {"source": "飞行员", "target": "扳道工", "value": 3},
+    {"source": "飞行员", "target": "商贩", "value": 3},
+    {"source": "飞行员", "target": "路灯", "value": 3},
+    {"source": "小王子", "target": "小女孩", "value": 9},
+    {"source": "小女孩", "target": "妈妈", "value": 10}
+  ]
+}
